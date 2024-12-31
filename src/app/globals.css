@@ -1,0 +1,13 @@
+/* @import rules should be at the top of the file */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
+
+/* Tailwind CSS imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles can go below */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f9;
+}
